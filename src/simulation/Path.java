@@ -24,6 +24,9 @@ import localization.Position;
  *
  * @see Edge
  * @see <a href=http://www8.cs.umu.se/~ringdahl/publications.html#master_thesis">Ola Ringdahl master thesis</a>
+ *
+ * @author Marcus Lööw (oi12mlw@cs.umu.se)
+ * @author Andreas Günzel (dv13agl@cs.umu.se)
  */
 public class Path {
 

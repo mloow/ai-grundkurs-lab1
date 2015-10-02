@@ -41,11 +41,9 @@ public class MyRobot {
 	 * The max speed is set to 1.0.
 	 */
 	public MyRobot() {
-
 		this.position = new Position(0, 0);
 		setLookAheadDistance(1.00);
 		setMaxSpeed(1.00);
-
 	}
 
 	/**
@@ -66,7 +64,7 @@ public class MyRobot {
      * and the angular speed will be set at a high rate in the direction of the carrot point.
 	 *
 	 * The reason for this peculiar solution is simply because it resulted faster run times,
-     * than what runs where steer and drive speeds were set to make the robot "exactly" reach the carrot point
+     * than what runs where steer and drive speeds were set to make the robot "exactly" reach the carrot
      * within the drive time.
 	 *
 	 * @throws Exception
