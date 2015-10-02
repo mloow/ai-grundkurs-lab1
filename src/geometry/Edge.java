@@ -1,7 +1,14 @@
 package geometry;
 
 /**
- * Created by marcus on 2015-09-18.
+ * The class Edge represents a geometrical edge. An Edge consists of two two-dimensional Vertices.
+ *
+ * The class has a method for computing the closest point on the Edge from another given point. The algorithm used
+ * to calculate this is described in Ola Ringdahl's master thesis which can be found at
+ * <a href=http://www8.cs.umu.se/~ringdahl/publications.html#master_thesis">his publications site</a>.
+ *
+ * @see Vertex
+ * @see <a href=http://www8.cs.umu.se/~ringdahl/publications.html#master_thesis">Ola Ringdahl master thesis</a>
  */
 public class Edge {
 
